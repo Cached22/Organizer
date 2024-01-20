@@ -1,0 +1,86 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.example
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Others
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+*.swo
+*.tar.gz
+*.zip
+*.tar
+*.tgz
+*.tmp
+
+# Frontend
+/frontend/build/
+/frontend/.next/
+/frontend/out/
+
+# Backend
+/backend/migrations/
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/*$py.class
+
+# Test directories
+/__tests__/
+/tests/
+
+# Production
+/production.sqlite3
+
+# Compiled Static files
+/staticfiles/
+/media/
